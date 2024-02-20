@@ -46,7 +46,7 @@
                     </div>
                     <div class="navbar-end">
                         <div>
-                            <a class="btn text-[#1dd100] text-lg bg-[#1dd1001a] border-[#1dd10066] font-bold">Bus
+                            <a class="btn text-[#1dd100] text-lg bg-[#1dd1001a] border-[#1dd10066] font-medium">Bus
                                 <img src="images/bus-icon.png" alt="">
                             </a>
                         </div>
@@ -112,7 +112,10 @@
                 <div class="">
                     <h1 class="text-center text-[#030712] text-3xl font-bold">Best offers for you</h1>
                 </div>
-                <div class="flex justify-around mt-20">
+
+                <!-- coupon -->
+
+                <div class="flex justify-center gap-x-10 mt-20">
 
                     <!-- 1ST Coupon -->
                     <div class="flex max-h-60 text-center  bg-[#ffbf0f] rounded-2xl">
@@ -124,7 +127,7 @@
                                 </p>
                         </div>
 
-                        <img class="" src="images/info-devider.png" alt="">
+                        <img src="images/cupon-devider.png" alt="">
 
                         <div class="my-auto p-5">
                             <h3 class="font-extrabold text-3xl text-[#030712] mb-3"> NEW15</h3>
@@ -142,7 +145,7 @@
                                 </p>
                         </div>
 
-                        <img class="" src="images/info-devider.png" alt="">
+                        <img class="" src="images/cupon-devider.png" alt="">
 
                         <div class="my-auto p-5">
                             <h3 class="font-extrabold text-3xl text-[#030712] mb-3"> Couple 20</h3>
@@ -152,9 +155,11 @@
 
 
                 </div>
-                <div class=" text-center mt-12">
-                    <a class="btn text-[#1dd100] text-lg bg-[#1dd1001a] border-[#1dd100] font-bold ">See All Offers
-                    </a>
+                <div class="flex justify-center">
+                    <div class=" text-center mt-14">
+                        <a class="btn text-[#1dd100] text-lg bg-[#1dd1001a] border-[#1dd100] font-bold ">See All Offers
+                        </a>
+                    </div>
                 </div>
             </section>
 
@@ -163,10 +168,11 @@
 
 
         <!-- Ticket booking -->
-        <section class="  my-40 border-t-2 border-[#1dd100] rounded-t-3xl">
+        <section class="border-t-2 border-[#1dd100] my-3 mb-32 rounded-t-3xl">
+
 
             <!-- paribahan -->
-            <div class="container mx-auto  mt-32">
+            <div class="container mx-auto rounded-2xl mt-24">
                 <div class="text-center">
                     <h1 class="text-[#030712] text-3xl font-bold">G.H Paribahan</h1>
                     <div class="flex justify-center">
@@ -179,14 +185,14 @@
 
                 </div>
                 <!-- greenline -->
-                <div class="border-2 border-red-500 flex">
+                <div class="flex">
                     <div class="flex-1">
                         <div class="flex justify-between items-center">
                             <div class="flex items-center">
                                 <img class="max-w-14 max-h-12" src="images/bus-logo.png" alt="">
                                 <div class="ml-3">
                                     <h1 class="font-bold text-2xl">Greenline Paribahan</h1>
-                                    <h3 class="mt-1 font-medium text-lg">Coach-009-WEB!AC_Business</h3>
+                                    <h3 class="mt-1 font-normal text-lg">Coach-009-WEB!AC_Business</h3>
                                 </div>
                             </div>
                             <div class="flex bg-[#1dd10026] rounded-lg p-2">
@@ -215,30 +221,181 @@
                             </div>
                         </div>
                         <div class="flex justify-around font-medium text-base ">
-                            <button class="bg-[#0307120d] p-3 rounded-xl text-[#030712cc]">Boarding point - Laxmipur</button>
-                            <button class="bg-[#0307120d] p-3 rounded-xl text-[#030712cc]">Dropping point - Bogura</button>
+                            <button class="bg-[#0307120d] p-3 rounded-xl text-[#030712cc]">Boarding point -
+                                Laxmipur</button>
+                            <button class="bg-[#0307120d] p-3 rounded-xl text-[#030712cc]">Dropping point -
+                                Bogura</button>
                             <button class="bg-[#0307120d] p-3 rounded-xl text-[#030712cc]">Est.Time - 11 Hour</button>
                         </div>
                     </div>
 
-                        <hr class="border-1 border-[#1dd100] border-dashed w-60 rotate-90 mt-32">
+                    <hr class="border-1 border-[#1dd100] border-dashed w-60 rotate-90 mt-24">
 
                     <div class="min-w-64 flex justify-center">
-                       <div class="text-2xl font-bold flex flex-col items-center">
+                        <div class="text-2xl font-bold flex flex-col items-center">
 
-                           <img class="max-h-10 max-w-10" src="images/fare.png" alt="">
-                           <h1 class="text-[#030712] mt-4 mb-1">550 Taka</h1>
-                           <h3 class="text-[#03071299]">Per Seat</h3>
-                       </div>
+                            <img class="max-h-10 max-w-10" src="images/fare.png" alt="">
+                            <h1 class="text-[#030712] mt-4 mb-1">550 Taka</h1>
+                            <h3 class="text-[#03071299]">Per Seat</h3>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- ticket selection-->
-            <div>
-                 
+            <div class="container mx-auto mt-8  bg-[#f7f8f8]">
+                <!--ticket selection -->
+                <div class=" flex justify-between">
+
+                    <!-- selecting ticket hover -->
+
+                    <div class=" w-full">
+                        <h1 class="text-[#030712] font-bold text-2xl">Select Your Seat</h1>
+                        <hr class="border-1 border-dashed border-[#03071233] mt-4 w-full">
+                        <div class=" flex justify-between mt-2">
+                            <div class="flex rounded-lg p-2 ">
+                                <img class="max-w-5 max-h-5" src="images/seat-gray.png" alt="">
+                                <div class="ml-1 text-base font-medium">
+                                    <h3 class="text-[#03071280]">Available</h3>
+
+                                </div>
+
+                            </div>
+
+                            <div class="flex  p-2">
+                                <img class="max-w-5 max-h-5" src="images/seat-green-filled.png" alt="">
+                                <div class="ml-1 text-base font-medium">
+                                    <button class="text-[#1dd100]">Selected</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr class="border-1 border-dashed border-[#03071233] mt-1 w-full">
+
+                        <!-- vector  -->
+                        <div class=" flex justify-end my-5">
+                            <div class="bg-[#0307121a] flex justify-center rounded-lg w-28 py-3">
+
+                                <button class="">
+                                    <img src="images/Vector.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- selection -->
+                        <div class="flex justify-around">
+                            <div class="grid grid-cols-2 text-[#03071280] gap-5 p-5">
+                                <button class="btn rounded-lg w-28 p-2 bg-[#f7f8f8]">A1</button>
+                                <button class="btn rounded-lg w-28 bg-[#f7f8f8]">A2</button>
+                                <button class="btn rounded-lg w-28 p-2 bg-[#f7f8f8]">B1</button>
+                                <button class="btn rounded-lg w-28 bg-[#f7f8f8]">B2</button>
+                            </div>
+
+                            <div class="grid grid-cols-2 text-[#03071280] gap-5 p-5">
+                                <button class="btn rounded-lg w-28 p-2 bg-[#f7f8f8]">A1</button>
+                                <button class="btn rounded-lg w-28 bg-[#f7f8f8]">A2</button>
+                                <button class="btn rounded-lg w-28 p-2 bg-[#f7f8f8]">B1</button>
+                                <button class="btn rounded-lg w-28 bg-[#f7f8f8]">B2</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- hr -->
+                    <div class="border-2 border-[#03071233] border-dashed mx-4 h-96">
+                        <hr class="border-1 border-dashed border-[#03071233] mt-1 w-full">
+                    </div>
+                    <!-- form -->
+                    <div class=" w-5/6">
+                        <h1 class="text-[#030712] font-bold text-2xl">Select Your Seat</h1>
+                        <hr class="border-1 border-dashed border-[#03071233] mt-4 w-full">
+                        <div class="flex justify-between items-center w-11/12 mx-auto mt-7">
+                            <div class="flex items-center rounded-lg p-2">
+                                <div class="ml-1 text-base font-medium">
+                                    <h3 class="text-[#030712] font-medium text-base">Seat</h3>
+                                </div>
+                                <div class="bg-[#1dd100] p-1 ml-3 rounded-xl rotate-90 ">
+                                    <button class="rounded-full -rotate-90 text-[#ffffff] ">0</button>
+
+                                </div>
+                            </div>
+                            <div class="flex  p-2">
+
+                                <div class="ml-1 text-base font-medium">
+                                    <h3 class="text-[#030712]">Class</h3>
+                                </div>
+                            </div>
+                            <div class="flex  p-2">
+
+                                <div class="ml-1 text-base font-medium">
+                                    <h3 class="text-[#030712]">Price</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr class="border-1 border-dashed border-[#03071233] -mt-1 w-full">
+                        <div class="my-10">
+
+                        </div>
+                        <hr class="border-1 border-solid border-[#03071233] mt-1 w-full">
+
+                        <!-- total price -->
+                        <div class="flex justify-between  w-11/12 mx-auto">
+                            <div class="flex  p-2">
+
+                                <div class="ml-1 text-base font-semibold">
+                                    <h3 class="text-[#030712]">Total Price</h3>
+                                </div>
+                            </div>
+
+                            <div class="flex  p-2">
+
+                                <div class="ml-1 text-base font-semibold">
+                                    <h3 class="text-[#030712]">BDT 0</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- input -->
+                        <div class=" w-11/12 mx-auto my-4">
+                            <label class="input input-bordered flex items-center gap-2">
+                                <input type="text" class="grow" placeholder="Have a coupon?" />
+                                <span
+                                    class="bg-[#1dd100] text-base text-[#ffffff] flex justify-center rounded-lg w-16 p-1">Apply</span>
+                            </label>
+                        </div>
+                        <!-- Grand total -->
+                        <div class="flex justify-between  w-11/12 mx-auto">
+                            <div class="flex  p-2">
+
+                                <div class="ml-1 text-base font-semibold">
+                                    <h3 class="text-[#030712]">Grand Price</h3>
+                                </div>
+                            </div>
+
+                            <div class="flex  p-2">
+
+                                <div class="ml-1 text-base font-semibold">
+                                    <h3 class="text-[#030712]">BDT 0</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="flex justify-center ">
+                            <div class="flex justify-center rounded-xl mt-5 bg-[#1dd100] w-10/12">
+                                <button class="font-bold text-lg text-[#ffffff] mx-auto p-3">Next</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
 
             </div>
+
         </section>
 
 
@@ -305,6 +462,7 @@
             </div>
         </div>
     </section>
+
     <script src="ticket.js"></script>
     <script src="utility.js"></script>
 </body>
